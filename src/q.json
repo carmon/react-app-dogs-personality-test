@@ -1,0 +1,188 @@
+{
+    "instructions": {
+        "eng": {
+            "root": "When presented with the oportunity, does your dog",
+            "question": "Question ", "of": "/",
+            "often": ["Hardly Ever", "Sometimes","Almost always"],
+            "next": "Next", "reset": "Reset",
+            "profiles": ["Prey", "Pack", "Fight", "Flight"],
+            "option": "English",
+            "test": { "title": "Dog's Personality Test" },
+            "results": { "title": "Results", "subtitle": "Check your dog's profile" },
+            "drives": "Drives"
+        },
+        "esp": {
+            "root": "Cuando se presenta la oportunidad, ¿Qué tan a menudo tu perro...",
+            "question": "Pregunta ", "of": "/",
+            "often": ["Casi nunca", "A veces","Casi siempre"],
+            "next": "Siguiente", "reset": "Rehacer",
+            "profiles": ["Presa", "Manada", "Pelea", "Evasión"],
+            "option": "Español",
+            "test": { "title": "Test de personalidad canina" },
+            "results": { "title": "Resultado", "subtitle": "Analiza el perfil de tu perro" },
+            "drives": "Conductas"   
+        }
+    },
+    "questions": [
+        {
+            "esp": "...olfatea el piso o el aire?", 
+            "eng": "sniff ground or air?"
+        },
+        {
+            "esp": "...se lleva bien con otros perros?", 
+            "eng": "get along with other dogs?"
+        },
+        {
+            "esp": "...se queda quieto o muestra curiosidad por objetos y sonidos extraños?", 
+            "eng": "stand in his ground or show curiosity to strange objects of sounds?"
+        },        
+        {
+            "esp": "...huye de nuevas experiencias?", 
+            "eng": "run away from new situations?"
+        },        
+        {
+            "esp": "...se excita con objetos que se mueven, como bicicletas o ardillas?", 
+            "eng": "get excited by moving objects, such as bikes or squirrels?"
+        },        
+        {
+            "esp": "...se lleva bien con las personas?", 
+            "eng": "get along with people?"
+        },        
+        {
+            "esp": "...le gusta jugar a tirar de una soga para ganar?", 
+            "eng": "like to play tug-of-war games to win?"
+        },        
+        {
+            "esp": "...se esconde detrás tuyo cuando siente que no puede lidiar con la situación?", 
+            "eng": "hides behind you when he feels he can't cope?"
+        },        
+        {
+            "esp": "...acecha gatos, otros perros, o cosas en el pasto?", 
+            "eng": "stalk cats, other dogs, or things on the grass?"
+        },        
+        {
+            "esp": "...ladra cuando se queda sólo?", 
+            "eng": "barks when left alone?"
+        },        
+        {
+            "esp": "...ladra o gruñe en un tono de voz grave?", 
+            "eng": "barks or growl in a deep tone of voice?"
+        },        
+        {
+            "esp": "...actúa de manera desafiante a situaciones inesperadas?", 
+            "eng": "act fearfully in unfamiliar situations?"
+        },        
+        {
+            "esp": "...ladra en un tono de voz agudo cuando se excita?", 
+            "eng": "bark in a high-pitched voice when excited?"
+        },        
+        {
+            "esp": "...te pide caricias o se te acerca a acariciarte?", 
+            "eng": "solicit petting or like to snuggle with you?"
+        },        
+        {
+            "esp": "...defiende su territorio?", 
+            "eng": "guard his territory?"
+        },        
+        {
+            "esp": "...tiembla o llora cuando se siente inseguro?", 
+            "eng": "tremble or whine when unsure?"
+        },        
+        {
+            "esp": "...juega a la caza con sus juguetes?", 
+            "eng": "pounce on his toys?"
+        },        
+        {
+            "esp": "...le gusta que lo limpien?", 
+            "eng": "like to be groomed?"
+        },        
+        {
+            "esp": "...defiende su comida o juguetes?", 
+            "eng": "guard his food or toys?"
+        },        
+        {
+            "esp": "...se agacha o se pone patas para arriba cuando es castigado?", 
+            "eng": "cower or turn upside down when reprimanded?"
+        },        
+        {
+            "esp": "...sacude y 'mata' a sus juguetes?", 
+            "eng": "shake and 'kill' his toys?"
+        },        
+        {
+            "esp": "...busca contacto visual contigo?", 
+            "eng": "seek eye contact with you?"
+        },        
+        {
+            "esp": "...no le gusta ser acariciado?", 
+            "eng": "dislike being petted?"
+        },        
+        {
+            "esp": "...no quiere venir cuando lo llamas?", 
+            "eng": "act reluctant to come close to you when called?"
+        },        
+        {
+            "esp": "...roba comida o basura?", 
+            "eng": "steal food or garbage?"
+        },        
+        {
+            "esp": "...te sigue a todos lados como una sombra?", 
+            "eng": "follow you around like a shadow?"
+        },        
+        {
+            "esp": "...defiende a su/s dueño/s?", 
+            "eng": "guard his owner(s)?"
+        },        
+        {
+            "esp": "...no puede quedarse quieto mientras lo limpian?", 
+            "eng": "have difficulty standind still while groomed?"
+        },        
+        {
+            "esp": "...le gusta llevar cosas en la boca?", 
+            "eng": "like to carry things in this mouth?"
+        },        
+        {
+            "esp": "...juega mucho con otros perros?", 
+            "eng": "play a lot with other dogs?"
+        },        
+        {
+            "esp": "...no le gusta ser limpiado o acariciado?", 
+            "eng": "dislike being groomed or petted?"
+        },        
+        {
+            "esp": "...se agacha o achica cuando un extraño se avalanza sobre él?", 
+            "eng": "cower or cringe when a stranger bends over him?"
+        },        
+        {
+            "esp": "...devora su comida?", 
+            "eng": "wolf down his food?"
+        },        
+        {
+            "esp": "...salta hacia arriba para saludar a la gente?", 
+            "eng": "jump up to greet people?"
+        },        
+        {
+            "esp": "...le gusta pelear a otros perros?", 
+            "eng": "like to fight other dogs?"
+        },        
+        {
+            "esp": "...orina cuando está saludando a alguien?", 
+            "eng": "urinate during greeting behaviour?"
+        },        
+        {
+            "esp": "...le gusta cavar o enterrar cosas?", 
+            "eng": "like to dig or bury things?"
+        },        
+        {
+            "esp": "...muestra comportamientos reproductivos, como montar a otros perros?", 
+            "eng": "show reproductive behaviours, such as mounting other dogs?"
+        },        
+        {
+            "esp": "...es provocado por perros más grandes por ser joven?", 
+            "eng": "get picked by older dogs as a young dog?"
+        },        
+        {
+            "esp": "...tiende a morder cuando está acorralado?", 
+            "eng": "tend to bite when cornered?"
+        }
+    ]
+}

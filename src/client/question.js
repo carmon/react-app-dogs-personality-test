@@ -19,8 +19,7 @@ export default class Question extends PureComponent {
                         style={{ 
                             fontWeight: 'bold',
                             lineHeight: '20px', 
-                            marginTop: '3%', 
-                            maxWidth: '50%'
+                            marginTop: '3%'
                         }}>
                         {root}
                     </text>
