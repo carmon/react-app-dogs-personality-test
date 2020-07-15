@@ -14,7 +14,7 @@ const LanguageSelector = ({ current, handlers, list, texts }) =>
         {list.map((l, it) => 
             <button 
                 key={`b-${it}`} 
-                onClick={it !== current && handlers[it]}
+                onClick={it === current ? null : handlers[it]}
                 style={{ ...style, fontWeight: it === current ? 'bold' : 'normal' }}
             >
             {texts[l].option}

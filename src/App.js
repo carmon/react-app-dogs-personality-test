@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import qJSON from '../public/assets/q.json';
+import qJSON from './q.json';
 
 import Graphic from './client/graphic';
 import Question from './client/question';
@@ -84,7 +84,7 @@ class App extends Component {
           />
           {number < total && <FooterButton onClick={this.handleNextClick} text={next} />}
           <Center>
-            <text 
+            <p
               style={{ 
                 color: 'gray', 
                 fontSize: '9px',
@@ -94,7 +94,7 @@ class App extends Component {
               }} 
             >
               {question+number+of+total}
-            </text>
+            </p>
           </Center>
         </Section>
         <Section {...results} backgroundColor="black" color="white">

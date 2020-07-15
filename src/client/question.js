@@ -15,29 +15,29 @@ export default class Question extends PureComponent {
         return (
             <div>
                 <Center>
-                    <text 
+                    <p 
                         style={{ 
                             fontWeight: 'bold',
                             lineHeight: '20px', 
                             marginTop: '3%'
                         }}>
                         {root}
-                    </text>
+                    </p>
                 </Center>
-                <Center><text style={{ marginTop: '5px', textAlign: 'right' }}>{text}</text></Center>
+                <Center><p style={{ marginTop: '5px', textAlign: 'right' }}>{text}</p></Center>
                 <Center>
                     {this.handleClick.map((h, it) => 
                         <button key={`b-${it}`} disabled={value === it} onClick={this.handleClick[it]} style={{ width: '32px' }}>{it}</button>)}
                 </Center>
                 <Center>
-                    <text 
+                    <p 
                         style={{ 
                             color: catColor, 
                             fontWeight: 'bold',
                             pointerEvents: 'none' 
                         }}>
                         {category}
-                    </text>
+                    </p>
                 </Center>
             </div>
         );
